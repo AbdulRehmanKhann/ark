@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+.navlist
+{
+	float:right;
+	margin-left:25px;
+	width:50%;
+	display:flex;
+	align-items:center;
+}
+.navlist li
+{
+	list-style:none;
+	
+	font-family: 'Yusei Magic', sans-serif;
+	
+}
+.navlist li a
+{
+	color:white;
+	
+	padding:30px;
+}
+.navlist li a:hover
+{
+	text-decoration:none;
+	color:red;
+}
+.navbar
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	position:sticky;
+	top:0;
+	cursor:pointer;
+	height:1.5cm;
+}
+.ri8nav
+{
+	
+	width:50%;
+	text-align:right;
+	padding:0 23px;
+}
+.logo
+{
+	float:left;
+	display:flex;
+	padding:5px;
+	justify-content:center;
+	align-items:center;
+}
+#pl
+{
+	margin-left:-11cm;
+}
+.background
+{
+	background:rgba(0,0,0,0.7) url('../images/img2.jpg');
+	background-size:cover;
+	background-blend-mode:darken;
+}
+
+.btext
+{
+	font-size:41px;
+	color:#fff;
+	background-color:black;
+}
+.stext
+{
+	font-size:18px;
+	color:#fff;
+}
+
+.sectiontag
+{
+	padding:16px 0;
+}
+.section
+{
+	height:500px;
+	display:flex;
+	align-items:center;
+	justify-content:space-evenly;
+	max-width:80%;
+	margin:auto;
+	font-family: 'Yusei Magic', sans-serif;
+	
+}
+.section-left
+{
+	flex-direction:row-reverse;
+	font-family: 'Yusei Magic', sans-serif;
+	
+}
+.paras
+{
+	padding:0px 65px;
+}
+.thumbnill img
+{
+	width:250px;
+	border:2px solid black;
+	border-radius:26px;
+	margin-top:19px;
+}
+footer
+{
+	background:#000;
+	height:auto;
+	width:100vw;
+	font-family:sans-serif;
+	padding-top:40px;
+	color:#fff;
+	margin-top: 6cm;
+}
+.footer-content
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+	text-align:center;
+}
+.footer-content h3
+{
+	font-size:1.8rem;
+	font-weight:400;
+	text-transform:capitalize;
+	line-height:3rem;
+}
+.footer-content p
+{
+	max-width:500px;
+	margin:10px auto;
+	line-height:28px;
+	font-size:14px;
+}
+.socials
+{
+	list-style:none;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin:1rem 0 3 rem 0;
+}
+.socials li
+{
+	margin:0 10px;
+}
+.socials a
+{
+	text-decoration:none;
+	color:#fff;
+}
+.socials a i
+{
+	font-size:1.1rem;
+	transition:color .4s ease;
+}
+.socials a:hover i
+{
+	color:red;
+}
+.footer-bottom
+{
+	background:#000;
+	width:100vw;
+	padding:20px 0;
+	text-align:center;
+}
+.footer-bottom p
+{
+	font-size:14px;
+	word-spacing:2px;
+	text-transform:capitalize;
+}
+.footer-bottom span
+{
+	text-transform:uppercase;
+	opacity:.4;
+	font-weight:200;
+}
+.imgfluid:hover
+{
+	transform:translateY(-13px);
+}
+.imgfluid
+{
+	transition:transform 0.5s;
+}

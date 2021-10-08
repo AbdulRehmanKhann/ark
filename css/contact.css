@@ -1,0 +1,151 @@
+*
+{
+	padding:0;
+	margin:0;
+}
+.bb
+{
+	padding:0;
+	margin:0;
+}
+.navlist
+{
+	float:right;
+	margin-left:25px;
+	width:50%;
+	display:flex;
+	align-items:center;
+}
+.navlist li
+{
+	list-style:none;
+	
+	font-family: 'Yusei Magic', sans-serif;
+	
+}
+.navlist li a
+{
+	color:white;
+	
+	padding:30px;
+}
+.navlist li a:hover
+{
+	text-decoration:none;
+	color:red;
+}
+.navbar
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	position:sticky;
+	top:0;
+	cursor:pointer;
+	height:1.5cm;
+}
+.ri8nav
+{
+	
+	width:50%;
+	text-align:right;
+	padding:0 23px;
+}
+.logo
+{
+	float:left;
+	display:flex;
+	padding:5px;
+	justify-content:center;
+	align-items:center;
+}
+#pl
+{
+	margin-left:-11cm;
+}
+.background
+{
+	background:rgba(0,0,0,0.7) url('../images/img2.jpg');
+	background-size:cover;
+	background-blend-mode:darken;
+}
+.bb:before
+{
+	content:'';
+	position:fixed;
+	width:100vw;
+	height:100vh;
+	background-image:url("../images/img10.jpg");
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+.contactform
+{
+	position: absolute;
+    margin-top: 2cm;
+    left: 35%;
+    width: 300px;
+    height: 320px;
+    padding: 80px 40px;
+    background: rgba(0,0,0,0.6);
+	
+}
+.avatar
+{
+	
+	position:absolute;
+	width:80px;
+	height:80px;
+	border-radius:50%;
+	overflow:hidden;
+	top:calc(-80px/2);
+	margin-left: 3cm;
+}
+.contactform h2
+{
+	margin:0;
+	padding:0 0 20px;
+	color:#fff;
+	text-align:center;
+	text-transform:uppercase;
+}
+.contactform p
+{
+	margin:0;
+	padding:0;
+	color:#fff;
+	font-weight:bold;
+}
+.contactform input
+{
+	width:100%;
+	margin-bottom:20px;
+}
+.contactform input[type=email],
+.contactform input[type=password]
+{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	color:#fff;
+	font-size:15px;
+}
+.contactform input[type=submit]
+{
+	height:30px;
+	color:#fff;
+	font-size:15px;
+	background:red;
+	cursor:pointer;
+	border-radius:25px;
+	border:none;
+	outline:none;
+	margin-top:15%;
+}
+input[type=checkbox]
+{
+	width:20%;
+}

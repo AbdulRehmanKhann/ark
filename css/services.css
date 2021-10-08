@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/img17.jpg");
+	background-size:cover;
+	background-position:center;
+	color:#fff !important;
+}
+.navlist
+{
+	float:right;
+	margin-left:25px;
+	width:50%;
+	display:flex;
+	align-items:center;
+}
+.navlist li
+{
+	list-style:none;
+	
+	font-family: 'Yusei Magic', sans-serif;
+	
+}
+.navlist li a
+{
+	color:white;
+		align-items:center;
+	justify-content:center;
+	padding:30px;
+}
+.navlist li a:hover
+{
+	text-decoration:none;
+	color:red;
+}
+.navbar
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	position:sticky;
+	top:0;
+	cursor:pointer;
+	height:1.5cm;
+}
+.ri8nav
+{
+	
+	width:50%;
+	text-align:right;
+	padding:0 23px;
+}
+.logo
+{
+	float:left;
+	display:flex;
+	padding:4px;
+	justify-content:center;
+	align-items:center;
+}
+#pl
+{
+	margin-left:-11cm;
+	margin-top:5px;
+}
+.background
+{
+	background:rgba(0,0,0,0.7) url('../images/img17.jpg');
+	background-size:cover;
+	background-blend-mode:darken;
+}
+.services
+{
+	
+	margin:60px auto;
+	text-align:center;
+}
+.ff
+{
+	font-family: 'Yusei Magic', sans-serif;
+}
+h1
+{
+	font-family: 'Yusei Magic', sans-serif;
+	letter-spacing:1px;
+}
+h1:after
+{
+	content:'';
+	background:white;
+	display:block;
+	width:150px;
+	height:3px;
+	margin:10px auto;
+}
+.icon
+{
+	font-size:40px;
+	margin:20px auto;
+	padding:20px;
+	height:80px;
+	width:80px;
+	border:1px solid white;
+	border-radius:50%;
+}
+.col-md-3:hover
+{
+	box-shadow:5px 7px 9px -3px rgba(255,255,255,0.5);
+	cursor:pointer;
+}
+footer
+{
+	background:#000;
+	height:auto;
+	width:100vw;
+	font-family:sans-serif;
+	padding-top:40px;
+	color:#fff;
+	margin-top: 6cm;
+}
+.footer-content
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+	text-align:center;
+}
+.footer-content h3
+{
+	font-size:1.8rem;
+	font-weight:400;
+	text-transform:capitalize;
+	line-height:3rem;
+}
+.footer-content p
+{
+	max-width:500px;
+	margin:10px auto;
+	line-height:28px;
+	font-size:14px;
+}
+.socials
+{
+	list-style:none;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin:1rem 0 3 rem 0;
+}
+.socials li
+{
+	margin:0 10px;
+}
+.socials a
+{
+	text-decoration:none;
+	color:#fff;
+}
+.socials a i
+{
+	font-size:1.1rem;
+	transition:color .4s ease;
+}
+.socials a:hover i
+{
+	color:red;
+}
+.footer-bottom
+{
+	background:#000;
+	width:100vw;
+	padding:20px 0;
+	text-align:center;
+}
+.footer-bottom p
+{
+	font-size:14px;
+	word-spacing:2px;
+	text-transform:capitalize;
+}
+.footer-bottom span
+{
+	text-transform:uppercase;
+	opacity:.4;
+	font-weight:200;
+}

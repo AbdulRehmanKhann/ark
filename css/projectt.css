@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.navlist
+{
+	float:right;
+	margin-left:25px;
+	width:50%;
+	display:flex;
+	align-items:center;
+}
+.navlist li
+{
+	list-style:none;
+	
+	font-family: 'Yusei Magic', sans-serif;
+	
+}
+.navlist li a
+{
+	color:white;
+	
+	padding:30px;
+}
+.navlist li a:hover
+{
+	text-decoration:none;
+	color:red;
+}
+
+.buttons a:hover
+{
+	text-decoration:none;
+	color:red;
+}
+.buttons a
+{
+	color:white;
+}
+.navbar
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	position:sticky;
+	top:0;
+	cursor:pointer;
+	
+}
+.ri8nav
+{
+	
+	width:50%;
+	text-align:right;
+	padding:0 23px;
+}
+.logo
+{
+	float:left;
+	display:flex;
+	padding:5px;
+	justify-content:center;
+	align-items:center;
+}
+#pl
+{
+	margin-left:-11cm;
+}
+
+#search
+{
+	padding:5px;
+	font-size:18px;
+	border:2px solid grey;
+	border-radius:10px;
+}
+.background
+{
+	background:rgba(0,0,0,0.7) url('../images/img2.jpg');
+	background-size:cover;
+	background-blend-mode:darken;
+}
+.boxmain
+{
+	height:80%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:white;
+	font-family:serif;
+	max-width:50%;
+	margin:auto;
+}
+.fsection
+{
+	height:120vh;
+}
+.fhalf
+{
+	width:80%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	font-family: 'Yusei Magic', sans-serif;
+}
+.shalf
+{
+	width:30%;
+}
+.shalf img
+{
+	width:70%;
+	border:4px solid white;
+	border-radius:150px;
+	display:block;
+	margin:auto;
+}
+
+.btext
+{
+	font-size:41px;
+}
+.stext
+{
+	font-size:18px;
+	
+}
+.btn
+{
+	padding:8px 20px;
+	margin:7px 3px;
+	border:2px solid white;
+	border-radius:8px;
+	background:none;
+	
+	color:white;
+	cursor:pointer;
+}
+.btn-sm
+{
+	padding:6px 10px;
+	vertical-align:middle;
+}
+.outer
+{
+	margin-left: 2cm;
+    margin-top: 2cm;
+    margin-right: 2cm;
+    background-color: black;
+    height: 342px;
+	display:flex;
+}
+.r-inner
+{
+	left:40%
+}
+.i-inner
+{
+	right:40%;
+	color:#fff;
+}
+#aa
+{
+	margin-top:35px;
+	margin-left:2cm;
+	font-size:35px;
+}
+#bb
+{
+	margin-top:15px;
+	text-align:center;
+	margin-left:20px;
+	margin-right:20px;
+}
+.ci
+{
+	height:9.047cm;
+}
+footer
+{
+	background:#000;
+	height:auto;
+	width:100vw;
+	font-family:sans-serif;
+	padding-top:40px;
+	color:#fff;
+	margin-top: 6cm;
+}
+.footer-content
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+	text-align:center;
+}
+.footer-content h3
+{
+	font-size:1.8rem;
+	font-weight:400;
+	text-transform:capitalize;
+	line-height:3rem;
+}
+.footer-content p
+{
+	max-width:500px;
+	margin:10px auto;
+	line-height:28px;
+	font-size:14px;
+}
+.socials
+{
+	list-style:none;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin:1rem 0 3 rem 0;
+}
+.socials li
+{
+	margin:0 10px;
+}
+.socials a
+{
+	text-decoration:none;
+	color:#fff;
+}
+.socials a i
+{
+	font-size:1.1rem;
+	transition:color .4s ease;
+}
+.socials a:hover i
+{
+	color:red;
+}
+.footer-bottom
+{
+	background:#000;
+	width:100vw;
+	padding:20px 0;
+	text-align:center;
+}
+.footer-bottom p
+{
+	font-size:14px;
+	word-spacing:2px;
+	text-transform:capitalize;
+}
+.footer-bottom span
+{
+	text-transform:uppercase;
+	opacity:.4;
+	font-weight:200;
+}
+.r-inner img:hover
+{
+	height:400px;
+}

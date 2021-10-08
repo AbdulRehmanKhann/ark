@@ -1,0 +1,261 @@
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(../images/images2.jpg);	
+	background-size:cover;
+	background-position:center;
+	overflow:scroll;
+	background-repeat:no-repeat;
+	background-size:100%;
+	height:650px;
+	
+}
+.navlist
+{
+	float:right;
+	margin-left:25px;
+	width:50%;
+	display:flex;
+	align-items:center;
+}
+.navlist li
+{
+	list-style:none;
+	
+	font-family: 'Yusei Magic', sans-serif;
+	
+}
+.navlist li a
+{
+	color:white;
+	align-items:center;
+	justify-content:center;
+	padding:30px;
+}
+.navlist li a:hover
+{
+	text-decoration:none;
+	color:red;
+}
+.navbar
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	position:sticky;
+	top:0;
+	cursor:pointer;
+	height: 1.8cm;
+}
+.ri8nav
+{
+	
+	width:50%;
+	text-align:right;
+	padding:0 23px;
+}
+.logo
+{
+	float:left;
+	display:flex;
+	padding:4px;
+	justify-content:center;
+	align-items:center;
+}
+#pl
+{
+	margin-bottom:5px;
+}
+.background
+{
+	background:rgba(0,0,0,0.7) url('../images/img16.jpg');
+	background-size:cover;
+	background-blend-mode:darken;
+}
+.bookingformbox
+{
+	max-width:350px;
+	border:1px solid #ced4da;
+	margin:10% auto 0;
+	margin-top:25px;
+	
+}
+.radio-btn
+{
+	margin:0 20px; 
+}
+.radio-btn .btn
+{
+	margin:20px 10px 20px 0;
+	box-shadow:none;
+}
+.radio-btn .btn::after
+{
+	
+	height:20px;
+	width:20px;
+	top:-2px;
+	left:-1px;
+	background-color:#fff;
+	position:relative;
+	display:inline-block;
+	border:3px solid #fff;
+	visibility:visible;
+	border-radius:50%;
+}
+.radio-btn .btn::checked::after
+{
+	
+	background-color:#000;
+	transition:0.5s;
+}
+.radio-btn span
+{
+	color:white;
+	margin-right:5px;
+	font-size:12px;
+}	
+
+.bookingformbox
+{
+	padding:0 20px 20px;
+
+	
+}	
+
+input::placeholder
+{
+	color: #fff !important;
+}	
+.input-grp
+{
+	width:151px;
+	display:inline-block;
+}	
+.form-control
+{
+	font-size:12px !important;
+	border-radius:0 !important;
+	color:#210b03 !important;
+	background:transparent !important;
+	box-shadow:none !important;
+}	
+
+.custom-select
+{
+	margin-left:67px;
+	font-size:12px;
+	border:1px solid #ced4da;
+	box-shadow:none !important;
+	border-radius:0!important;
+	background:transparent !important;
+}
+.custom-select option
+{
+	color:#333;
+}
+.flight
+{
+	width:100%;
+	padding:9px 0 !important;
+	font-size:12px !important;
+	border:1px solid #ced4da !important;
+	background: transparent !important;
+	box-shadow:none !important;
+	border-radius:0!important;
+}
+.flight:hover
+{
+	background:grey!important;
+	color:#000!important;
+	transition:0.5s;
+}	
+.box select
+{
+	background: transparent;
+	padding:10px;
+	width:250px;
+	height:50px;
+	border:none;
+	font-size:20px;
+	box-shadow:0 5px 25px rgba(0,0,0,.5);
+	-webkit-appearance:button;
+	outline:none;	
+}	
+footer
+{
+	background:#000;
+	height:auto;
+	width:100vw;
+	font-family:sans-serif;
+	padding-top:40px;
+	color:#fff;
+	
+}
+.footer-content
+{
+	
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+	text-align:center;
+}
+.footer-content h3
+{
+	font-size:1.8rem;
+	font-weight:400;
+	text-transform:capitalize;
+	line-height:3rem;
+}
+.footer-content p
+{
+	max-width:500px;
+	margin:10px auto;
+	line-height:28px;
+	font-size:14px;
+}
+.socials
+{
+	list-style:none;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin:1rem 0 3 rem 0;
+}
+.socials li
+{
+	margin:0 10px;
+}
+.socials a
+{
+	text-decoration:none;
+	color:#fff;
+}
+.socials a i
+{
+	font-size:1.1rem;
+	transition:color .4s ease;
+}
+.socials a:hover i
+{
+	color:red;
+}
+.footer-bottom
+{
+	background:#000;
+	width:100vw;
+	padding:20px 0;
+	text-align:center;
+}
+.footer-bottom p
+{
+	font-size:14px;
+	word-spacing:2px;
+	text-transform:capitalize;
+}
+.footer-bottom span
+{
+	text-transform:uppercase;
+	opacity:.4;
+	font-weight:200;
+}
